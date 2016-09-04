@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test page</title>
+    <link href="components.css" rel="stylesheet">
+    <link href="testpage.css" rel="stylesheet">
+</head>
+<body>
+<div id="body-container">
+    <div id="body-container__left-col">
+        <div id="left-col">
+            <div id="left-col__block-top"></div>
+            <div id="left-col__block-mid">
+                *TutuRu - крупнейший сервис поиска, бронирования и покупки авиа и ж/д билетов. <br><br>
+                Наша цель проста - делать наших клиентов счастливыми, а их путешествия незабываемыми. Любое путешествие
+                начинается с поиска подходящих билетов и бронирования гостиниц. А мы делаем это качественно, обеспечивая
+                самую лучшую поддержку благодаря собственному контакт-центру.
+            </div>
+        </div>
+    </div>
+    <div id="body-container__right_col">
+        <div id="nav-container">
+            <div class="nav">
+                <a class="nav__button nav__button_viol nav__button_current" href="">Личный кабинет</a>
+                <a class="nav__button nav__button_green" href="">Раздел 1</a>
+                <a class="nav__button nav__button_sky-blue" href="">Раздел 2</a>
+                <a class="nav__button nav__button_carrot" href="">Раздел 3</a>
+                <a class="nav__button nav__button_black" href="">Раздел 4</a>
+                <a class="nav__button nav__button_firebrick" href="">Раздел 5</a>
+            </div>
+        </div>
+        <div id="form-container">
+            <div class="form">
+                <div class="form__header">
+                    <div class="form__title">
+                        <h1>Заполните форму</h1>
+                    </div>
+                    <div class="form__progress-bar">
+                        <div class="progress-bar">
+                            <div class="progress-bar__stage">1</div>
+                            <div class="progress-bar__stage">2</div>
+                            <div class="progress-bar__stage progress-bar__stage_current">3</div>
+                            <div class="progress-bar__stage">4</div>
+                            <div class="progress-bar__stage">5</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__delimiter">
+                    <span>Общая информация</span>
+                    <hr>
+                </div>
+                <div class="form__body">
+                    <div class="input-group">
+                        <div class="input-group__item">
+                            <div class="input-group__item-title">
+                                Фамилия
+                            </div>
+                            <div class="input-group__item-input">
+                                <input type="text" name="sureName" title="family name">
+                            </div>
+                        </div>
+                        <div class="input-group__item">
+                            <div class="input-group__item-title">
+                                Имя
+                            </div>
+                            <div class="input-group__item-input">
+                                <input type="text" name="firstName" title="name">
+                            </div>
+                        </div>
+                        <div class="input-group__item">
+                            <div class="input-group__item-title">
+                                Отчество
+                            </div>
+                            <div class="input-group__item-input">
+                                <input type="text" name="patronymic" title="patronymic">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group__item">
+                            <div class="input-group__item-title">
+                                Меняли фамилию?
+                            </div>
+                            <div class="input-group__item-input">
+                                <input type="radio" name="sureNameChanged" class="input-group__item-input-radio" id="radio-sureName-1" />
+                                <label for="radio-sureName-1">Дa</label>
+                                <input type="radio" name="sureNameChanged" class="input-group__item-input-radio" id="radio-sureName-2" />
+                                <label for="radio-sureName-2">Нет</label>
+                            </div>
+                        </div>
+                        <div class="input-group__item">
+                            <div class="input-group__item-title">
+                                Пол
+                            </div>
+                            <div class="input-group__item-input">
+                                <input type="radio" name="gender" class="input-group__item-input-radio" id="gender-1" />
+                                <label for="gender-1">Муж</label>
+                                <input type="radio" name="gender" class="input-group__item-input-radio" id="gender-2" />
+                                <label for="gender-2">Жен</label>
+                            </div>
+                        </div>
+                        <div class="input-group__item">
+                            <div class="input-group__item-title">
+                                Семейное положение
+                            </div>
+                            <div class="input-group__item-input">
+                                <select name="status" title="status">
+                                    <option>Женат / Замужем</option>
+                                    <option>etc</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group__item">
+                            <div class="input-group__item-title">
+                                Гражданство
+                            </div>
+                            <div class="input-group__item-input">
+                                <select name="citizenship" title="citizenship">
+                                    <option>Российская Федерация</option>
+                                    <option>etc</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-group__item">
+                            <div class="input-group__item-title">
+                                Дата рождения
+                            </div>
+                            <div class="input-group__item-input">
+                                <input type="date" name="birthday" title="birthday">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group__item-title">
+                            Место рождения
+                        </div>
+                        <div class="input-group__item-input">
+                            <input type="text" name="birthPlace" title="birthPlace">
+                        </div>
+                        <div class="item-group__item-input-tip">
+                            Например, Россия, Комсомольск-на-Амуре
+                        </div>
+                    </div>
+                </div>
+                <div class="form__footer">
+                    <a href="index.html" class="btn btn_lg btn_grey">&larr; Назад</a>
+                    <a href="" class="btn btn_lg btn_lightGreen">Далее &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

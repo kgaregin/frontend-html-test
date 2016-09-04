@@ -1,0 +1,243 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+#body-container {
+    width: 1024px;
+    margin: 0px auto;
+    min-height: 100vh;
+}
+
+#body-container__left-col {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    margin-right: 40px;
+    min-height: inherit;
+}
+
+#body-container__right_col {
+    display: inline-block;
+    min-width: calc(100% - 240px);
+    min-height: inherit;
+}
+
+#left-col__block-top {
+    height: 171px;
+}
+
+/*============================================= navigation: */
+#nav-container {
+    height: 150px;
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    top: calc(50% - 30px);
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px #666666;
+}
+
+.nav__button {
+    text-decoration: none;
+    margin: 0 14px;
+    font-size: 18px
+}
+
+.nav__button:hover {
+    text-decoration: underline;
+}
+
+.nav__button_current {
+    text-decoration: underline;
+}
+
+.nav__button_viol {
+    color: blueviolet;
+}
+
+.nav__button_green {
+    color: forestgreen;
+}
+
+.nav__button_sky-blue {
+    color: deepskyblue;
+}
+
+.nav__button_carrot {
+    color: darkorange;
+}
+
+.nav__button_black {
+    color: black;
+}
+
+.nav__button_firebrick {
+    color: firebrick;
+}
+
+/*============================================= form: */
+
+.form__header {
+    position: relative;
+    height: 80px;
+}
+
+.form__body {
+    display: inline-block;
+}
+
+.form__title {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+}
+
+.form__progress-bar {
+    display: inline-block;
+}
+
+.form__delimiter {
+    position: relative;
+    height: 20px;
+    margin: 20px 0;
+    color: rgb(156, 156, 156);
+}
+
+.form__delimiter span {
+    font-style: italic;
+    float: left;
+    margin-right: 15px;
+}
+
+.form__delimiter hr {
+    position: relative;
+    top: 10px;
+}
+
+.form__footer {
+    position: relative;
+    box-sizing: border-box;
+    height: 65px;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    margin-top: 20px;
+    padding: 12px 0;
+}
+
+.form__footer a:first-of-type{
+    position: absolute;
+    left: 20px;
+}
+
+.form__footer a:last-of-type{
+    position: absolute;
+    right: 20px;
+}
+
+/*============================================= input group: */
+
+.input-group {
+    height: 60px;
+    padding: 10px 0;
+}
+
+.input-group__item {
+    width: 220px;
+    float: left;
+    margin: 0 30px;
+}
+
+.input-group__item:first-of-type {
+    margin-left: 0;
+}
+
+.input-group__item:last-of-type {
+    margin-right: 0;
+}
+
+.input-group__item-title {
+    font-weight: 900;
+    margin: 7px 0;
+}
+
+.input-group__item-input input {
+    width: 100%;
+}
+
+.item-group__item-input-tip {
+    color: rgb(144, 144, 144);
+    font-size: 14px;
+    padding-top: 5px;
+}
+.input-group__item-input-radio{
+    display: none;
+}
+
+.input-group__item-input-radio + label{
+    cursor: pointer;
+    text-decoration: dotted;
+    width: 30px;
+    height: 17px;
+    display: inline;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.input-group__item-input-radio:checked + label  {
+    color: white;
+    background-color: #8ab500;
+    width: 30px;
+    height: 17px;
+    display: inline;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/*============================================= progress-bar: */
+
+.progress-bar {
+    position: absolute;
+    right: 0;
+}
+
+.progress-bar__stage {
+    display: inline-block;
+    width: 100px;
+    height: 18px;
+    background-color: #6bd500;
+    margin: 21px 0;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.progress-bar__stage:last-of-type {
+    border-radius: 0 7px 7px 0;
+}
+
+.progress-bar__stage:first-of-type {
+    border-radius: 7px 0 0 7px;
+
+}
+
+.progress-bar__stage_current {
+    background-color: #b3eb00;
+}
+
+.progress-bar__stage_current ~ .progress-bar__stage {
+    background-color: rgba(230, 230, 230, 1);
+    color: black;
+}

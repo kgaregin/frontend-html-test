@@ -1,0 +1,111 @@
+/*============================================= rating: */
+
+.rating {
+    display: inline-block;
+    direction: rtl;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label::before {
+    content: "\2605";
+    width: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.rating label {
+    cursor: pointer;
+    color: #cccccc;
+}
+
+.rating input:checked ~ label {
+    color: #f5b301;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #189800 !important;
+}
+
+/*============================================= button: */
+
+.btn {
+    display: inline-block;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 3px 5px #666666;
+    -moz-box-shadow: 2px 3px 5px #666666;
+    box-shadow: 2px 3px 5px #666666;
+    font-family: Arial;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #3498db;
+    padding: 10px 17px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3cb0fd;
+}
+
+.btn_lg {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.btn_sm {
+    font-size: 10px;
+    padding: 10px 15px;
+}
+
+.btn_red {
+    background-color: #8b0000;
+}
+
+.btn_green {
+    background-color: #189800;
+}
+
+.btn_yellow {
+    background-color: #f5b301;
+}
+
+.btn_grey{
+    background-color: #9b9b9b;
+}
+
+.btn_lightGreen{
+    background-color: #99ce00;
+}
+
+.btn_grey:hover{
+    background-color: #d6d6d6;
+}
+
+.btn_lightGreen:hover{
+    background-color: #bdf300;
+}
+
+
+.btn_red:hover {
+    background-color: #e70000;
+}
+
+.btn_green:hover {
+    background-color: #20cc00;
+}
+
+.btn_yellow:hover {
+    background-color: #ffcc44;
+}
+
+
+
+
+
