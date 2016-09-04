@@ -1,1 +1,6 @@
-# frontend-html-test
+# frontend-html-test @ tutu.ru
+
+## некоторые комментарии:
+
+- рабочее окружение: Windows 7 (8 недолюбливаю, 10 нелюблю), PHPStorm (порше мира IDE; так же был опыт с VS, начинал на Eclipse), браузеры - IE, Chrome - default (+Canary), Firefox (обновленные версии), OpenServer - отличный мультитул к сожалению без поддержки Node.js сервера (apache nginx только)
+- имею представление, что адаптивно можно сверстать с помощью @media-запросов
